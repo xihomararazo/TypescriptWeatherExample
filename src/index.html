@@ -7,8 +7,10 @@
 </head>
 <body>
             <div class="container">
-                <div class="weather-side">
-                    <div class="weather-gradient"></div>
+                <div class="weather-side">        
+                    <div class="weather-gradient">
+                        <div id ="loading" class="loader" style="visibility: hidden;"></div> 
+                    </div>
                     <div class="date-container">
                         <h2 id="date-dayname" class="date-dayname">---</h2><span id="date-day" class="date-day">--</span><span id="location-text" class="location">-</span>
                     </div>
@@ -34,13 +36,10 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="location-container"><button id="button-location" class="location-button"><span>Change location</span></button></div>
-
-                    <div class="location-container-input"><input placeholder="city..." id="weather-location-input" class="location-input"> </input></div>
+                    <div class="location-container-input"><input placeholder="ciudad" id="weather-location-input" class="location-input"> </input></div>
                 </div>
             </div>
-
     </div>
 </body>
 </html>
